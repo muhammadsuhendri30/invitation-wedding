@@ -1,1 +1,1 @@
-INVITATION WEDDING
+Wedding Invitation
