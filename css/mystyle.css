@@ -1,0 +1,15 @@
+.bg-img-1{
+    background-image: url('./assets/images/foto.jpg');
+}
+.bg-img-2{
+    background-image: url('./assets/images/bg.jpeg');
+}
+.bg-img-3{
+    background-image: url('./assets/images/v3.png');
+}
+.carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
