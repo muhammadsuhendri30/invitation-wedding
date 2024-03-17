@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-/* .bg-img-1{
+.bg-img-1{
     background-image: url('./assets/images/foto.jpg');
 }
 .bg-img-2{
@@ -21,8 +21,7 @@ body::-webkit-scrollbar {
 }
 .bg-img-3{
     background-image: url('./assets/images/v3.png');
-} */
-
+}
 .carousel-image{
     height: 100vh;
     background-repeat: no-repeat;
@@ -64,7 +63,7 @@ body::-webkit-scrollbar {
     border-image-width: 42px 42px 42px 42px !important;
     border-image-outset: 0px 0px 0px 0px !important;
     border-image-repeat: round round !important;
-    /* border-image-source: url('./assets/images/20150608_012-removebg-preview.png')!important; */
+    border-image-source: url('./assets/images/20150608_012-removebg-preview.png')!important;
     border-style: solid !important;
 }
 
