@@ -179,20 +179,20 @@ const util = (() => {
 
             skew = Math.max(0.8, skew - 0.001);
 
-            await confetti({
-                particleCount: 1,
-                startVelocity: 0,
-                ticks: ticks,
-                origin: {
-                    x: Math.random(),
-                    y: Math.random() * skew - 0.2,
-                },
-                colors: ["FFC0CB", "FF69B4", "FF1493", "C71585"],
-                shapes: ["heart"],
-                gravity: randomInRange(0.5, 1),
-                scalar: randomInRange(1, 2),
-                drift: randomInRange(-0.5, 0.5),
-            });
+            // await confetti({
+            //     particleCount: 1,
+            //     startVelocity: 0,
+            //     ticks: ticks,
+            //     origin: {
+            //         x: Math.random(),
+            //         y: Math.random() * skew - 0.2,
+            //     },
+            //     colors: ["FFC0CB", "FF69B4", "FF1493", "C71585"],
+            //     shapes: ["heart"],
+            //     gravity: randomInRange(0.5, 1),
+            //     scalar: randomInRange(1, 2),
+            //     drift: randomInRange(-0.5, 0.5),
+            // });
 
             if (timeLeft > 0) {
                 requestAnimationFrame(frame);
@@ -209,10 +209,10 @@ const util = (() => {
         document.getElementById('tombol-musik').style.display = 'block';
         timer();
 
-        await confetti({
-            origin: { y: 0.8 },
-            zIndex: 1057
-        });
+        // await confetti({
+        //     origin: { y: 0.8 },
+        //     zIndex: 1057
+        // });
         await session.check();
         await animation();
     };
